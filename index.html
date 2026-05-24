@@ -3,10 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <!-- Makes website responsive on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>GVK's Serenity Resorts</title>
 
     <!-- Bootstrap CSS -->
@@ -23,1201 +20,579 @@
     ==================================== -->
 
     <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top py-3">
-
-        <!-- container keeps content centered -->
         <div class="container">
-
             <!-- BRAND -->
             <a class="navbar-brand d-flex align-items-center" href="#">
-
-                <!-- LOGO -->
                 <img src="./assets/logo/Logo_Icon3.png" alt="GVK Logo" width="100" height="75" class="me-3">
-
-                <!-- BRAND TEXT -->
                 <div>
-
-                    <h2 class="brand-title mb-0">
-                        GVK
-                    </h2>
-
-                    <p class="brand-subtitle mb-0">
-                        SERENITY RESORTS
-                    </p>
-
+                    <h2 class="brand-title mb-0">GVK</h2>
+                    <p class="brand-subtitle mb-0">SERENITY RESORTS</p>
                 </div>
-
             </a>
 
             <!-- MOBILE TOGGLER -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-
                 <span class="navbar-toggler-icon"></span>
-
             </button>
 
             <!-- COLLAPSIBLE MENU -->
             <div class="collapse navbar-collapse" id="navbarMenu">
-
-                <!-- ms-auto pushes menu to right -->
                 <ul class="navbar-nav ms-auto">
-
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">
-                            Home
-                        </a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">
-                            About
-                        </a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">
-                            Services
-                        </a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#gallery">
-                            Gallery
-                        </a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">
-                            Contact
-                        </a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
-
                 </ul>
-
             </div>
-
         </div>
-
     </nav>
 
     <!-- ===================================
          HERO SECTION
     ==================================== -->
 
-    <section id="home" class="hero-section d-flex align-items-center">
-
+    <!-- <section id="home" class="hero-section d-flex align-items-center">
         <div class="container">
-
             <div class="row">
-
-                <!-- col-lg-6 means:
-                     50% width on desktop
-                     full width on mobile
-                -->
-
                 <div class="col-lg-6">
-
-                    <p class="hero-top-text">
-                        ESCAPE • RELAX • REJUVENATE
-                    </p>
-
-                    <h1 class="hero-title">
-                        EXPERIENCE
-                        <br>
-                        SERENITY
-                    </h1>
-
+                    <p class="hero-top-text">ESCAPE • RELAX • REJUVENATE</p>
+                    <h1 class="hero-title">EXPERIENCE<br>SERENITY</h1>
                     <p class="hero-description">
-
                         Discover nature-inspired luxury stays,
                         breathtaking ocean views, and unforgettable
                         resort experiences crafted for ultimate peace.
-
                     </p>
+                    <a href="#features" class="btn hero-btn mt-4">Resort Features</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-                    <a href="#" class="btn hero-btn mt-4">
+    <section id="home"
+         class="hero-section d-flex align-items-center">
 
-                        Explore Resort
+    <div class="container">
 
+        <div class="row align-items-center min-vh-100">
+
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-6 text-white">
+
+                <!-- TOP TEXT -->
+                <p class="hero-top-text text-uppercase fw-semibold mb-3">
+                    Escape • Relax • Rejuvenate
+                </p>
+
+                <!-- MAIN TITLE -->
+                <h1 class="hero-title display-2 fw-bold mb-4">
+                    Experience
+                    <br>
+                    Serenity
+                </h1>
+
+                <!-- DESCRIPTION -->
+                <p class="hero-description lead lh-lg mb-4">
+                    Discover nature-inspired luxury stays,
+                    breathtaking ocean views, and unforgettable
+                    resort experiences crafted for ultimate peace.
+
+                </p>
+
+                <!-- BUTTONS -->
+                <div class="d-flex flex-wrap gap-3">
+
+                    <a href="#services"
+                       class="btn btn-warning rounded-pill px-4 py-3 fw-semibold">
+                        Resort Features
                     </a>
 
+                    <a href="#contact"
+                       class="btn btn-outline-light rounded-pill px-4 py-3 fw-semibold">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ===================================
+     ABOUT SECTION
+    =================================== -->
+
+    <section id="about" class="py-lg-6 py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- IMAGE COLUMN -->
+                <div class="col-lg-6">
+                    <img src="./assets/images/HeroBanner.png" alt="Luxury Resort" class="img-fluid rounded-4 shadow-lg">
                 </div>
 
-            </div>
+                <!-- CONTENT COLUMN -->
+                <div class="col-lg-6">
+                    <p class="text-warning fw-semibold text-uppercase mb-2 section-label">About Our Resort</p>
+                    <h2 class="display-5 fw-bold mb-4">Luxury Meets<br>Natural Beauty</h2>
+                    <p class="text-muted lh-lg mb-4">
+                        GVK Serenity Resorts offers an unforgettable escape
+                        surrounded by tropical landscapes, crystal-clear
+                        waters, and world-class hospitality.
+                        <br><br>
+                        Experience peaceful stays, luxury accommodations,
+                        wellness retreats, and breathtaking ocean sunsets
+                        crafted to refresh your soul.
+                    </p>
+                    <!-- FEATURES -->
+                    <div class="row g-4 mb-5">
+                        <!-- FEATURE ITEM -->
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-start about-feature">
+                                <img src="./assets/images/Gallery6.png" alt="Nature" width="45" class="me-3 rounded-3">
+                                <div>
+                                    <h6 class="fw-bold mb-1">Tropical Paradise</h6>
+                                    <p class="text-muted small mb-0">Relax among nature and serenity.</p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <!-- FEATURE ITEM -->
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-start about-feature">
+                                <img src="./assets/images/Gallery5.png" alt="Service" width="45" class="me-3 rounded-3">
+                                <div>
+                                    <h6 class="fw-bold mb-1">Premium Hospitality</h6>
+                                    <p class="text-muted small mb-0">Personalized luxury experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BUTTON -->
+                    <a href="#testimonials" class="btn btn-warning rounded-pill px-4 py-3 fw-semibold luxury-btn">
+                        Guest Stories
+                    </a>
+                    <a href="#features" class="btn btn-warning rounded-pill px-4 py-3 fw-semibold luxury-btn">
+                        Discover Luxury
+                    </a>
+                </div>
+            </div>
         </div>
 
     </section>
 
     <!-- ===================================
      FEATURE STRIP
-=================================== -->
-
-    <section id="feature" class="container py-5">
-
-        <!-- row -->
-        <div class="row g-4">
-
-            <!-- FEATURE 1 -->
-            <div class="col-12 col-md-6 col-lg-3">
-
-                <div class="text-center shadow-sm rounded-4 p-4 bg-white h-100">
-
-                    <img src="./assets/logo/Nature_leaf_Icon.png" alt="Nature Icon" width="70" class="mb-4">
-
-                    <h5 class="fw-bold mb-3">
-
-                        Nature Inspired
-
-                    </h5>
-
-                    <p class="text-muted mb-0">
-
-                        Surrounded by peaceful tropical landscapes
-                        and breathtaking natural beauty.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- FEATURE 2 -->
-            <div class="col-12 col-md-6 col-lg-3">
-
-                <div class="text-center shadow-sm rounded-4 p-4 bg-white h-100">
-
-                    <img src="./assets/logo/Luxury_lotus_Icon.png" alt="Luxury Icon" width="70" class="mb-4">
-
-                    <h5 class="fw-bold mb-3">
-
-                        Luxury Living
-
-                    </h5>
-
-                    <p class="text-muted mb-0">
-
-                        Premium villas and world-class comfort
-                        designed for ultimate relaxation.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- FEATURE 3 -->
-            <div class="col-12 col-md-6 col-lg-3">
-
-                <div class="text-center shadow-sm rounded-4 p-4 bg-white h-100">
-
-                    <img src="./assets/logo/Service_Icon.png" alt="Service Icon" width="70" class="mb-4">
-
-                    <h5 class="fw-bold mb-3">
-
-                        World Class Service
-
-                    </h5>
-
-                    <p class="text-muted mb-0">
-
-                        Exceptional hospitality crafted to create
-                        unforgettable guest experiences.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- FEATURE 4 -->
-            <div class="col-12 col-md-6 col-lg-3">
-
-                <div class="text-center shadow-sm rounded-4 p-4 bg-white h-100">
-
-                    <img src="./assets/logo/Camera_Icon.png" alt="Experience Icon" width="70" class="mb-4">
-
-                    <h5 class="fw-bold mb-3">
-
-                        Memorable Experiences
-
-                    </h5>
-
-                    <p class="text-muted mb-0">
-
-                        Explore unique adventures, wellness retreats,
-                        and luxury resort moments.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!-- ===================================
-     ABOUT SECTION
-=================================== -->
-
-    <section id="about" class="container py-5">
-
-        <div class="row align-items-center g-5">
-
-            <!-- IMAGE COLUMN -->
-            <div class="col-lg-6">
-
-                <img src="./assets/images/HeroBanner.png" alt="Luxury Resort" class="img-fluid rounded-4 shadow">
-
-            </div>
-
-
-
-
-
-            <!-- CONTENT COLUMN -->
-            <div class="col-lg-6">
-
-                <p class="text-warning fw-semibold text-uppercase mb-2">
-
-                    About Our Resort
-
-                </p>
-
-                <h2 class="display-5 fw-bold mb-4">
-
-                    Luxury Meets
-                    <br>
-                    Natural Beauty
-
-                </h2>
-
-                <p class="text-muted lh-lg mb-4">
-
-                    GVK Serenity Resorts offers an unforgettable escape
-                    surrounded by tropical landscapes, crystal-clear
-                    waters, and world-class hospitality.
-
-                    Experience peaceful stays, luxury accommodations,
-                    wellness retreats, and breathtaking ocean sunsets
-                    crafted to refresh your soul.
-
-                </p>
-
-
-
-
-
-                <!-- FEATURES -->
-
-                <div class="row g-4">
-
-                    <!-- FEATURE ITEM -->
-                    <div class="col-sm-6">
-
-                        <div class="d-flex align-items-start">
-
-                            <img src="./assets/images/Gallery6.png" alt="Nature" width="45" class="me-3">
-
-                            <div>
-
-                                <h6 class="fw-bold mb-1">
-
-                                    Tropical Paradise
-
-                                </h6>
-
-                                <p class="text-muted small mb-0">
-
-                                    Relax among nature and serenity.
-
-                                </p>
-
+    =================================== -->
+
+    <section id="features" class="py-lg-6 py-5 feature-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- FEATURE 1 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card feature-card border-0 h-100 rounded-4">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-wrapper mb-4">
+                                <img src="./assets/logo/Nature_leaf_Icon.png" alt="Nature Icon" width="70" class="feature-icon">
                             </div>
-
+                            <h5 class="card-title fw-bold mb-3">Nature Inspired</h5>
+                            <p class="card-text text-muted mb-0">
+                                Surrounded by peaceful tropical landscapes
+                                and breathtaking natural beauty.
+                            </p>
                         </div>
-
                     </div>
-
-
-
-
-
-                    <!-- FEATURE ITEM -->
-                    <div class="col-sm-6">
-
-                        <div class="d-flex align-items-start">
-
-                            <img src="./assets/images/Gallery5.png" alt="Service" width="45" class="me-3">
-
-                            <div>
-
-                                <h6 class="fw-bold mb-1">
-
-                                    Premium Hospitality
-
-                                </h6>
-
-                                <p class="text-muted small mb-0">
-
-                                    Personalized luxury experiences.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
                 </div>
 
+                <!-- FEATURE 2 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card feature-card border-0 h-100 rounded-4">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-wrapper mb-4">
+                                <img src="./assets/logo/Luxury_lotus_Icon.png" alt="Luxury Icon" width="70" class="feature-icon">
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">Luxury Living</h5>
+                            <p class="card-text text-muted mb-0">
+                                Premium villas and world-class comfort
+                                designed for ultimate relaxation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- FEATURE 3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card feature-card border-0 h-100 rounded-4">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-wrapper mb-4">
+                                <img src="./assets/logo/Service_Icon.png" alt="Service Icon" width="70" class="feature-icon">
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">World Class Service</h5>
+                            <p class="card-text text-muted mb-0">
+                                Exceptional hospitality crafted to create
+                                unforgettable guest experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-
-
-                <!-- BUTTON -->
-
-                <a href="#" class="btn btn-warning rounded-pill px-4 py-3 mt-5 fw-semibold">
-
-                    Discover More
-
-                </a>
-
+                <!-- FEATURE 4 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card feature-card border-0 h-100 rounded-4">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon-wrapper mb-4">
+                                <img src="./assets/logo/Camera_Icon.png" alt="Experience Icon" width="70" class="feature-icon">
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">Memorable Experiences</h5>
+                            <p class="card-text text-muted mb-0">
+                                Explore unique adventures, wellness retreats,
+                                and luxury resort moments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </section>
-
 
     <!-- ===================================
      SERVICES SECTION
-=================================== -->
+    =================================== -->
 
-    <section id="services" class="py-5 bg-light">
-
+    <section id="services" class="py-lg-6 py-5 bg-light">
         <div class="container">
-
             <!-- SECTION TITLE -->
-
             <div class="text-center mb-5">
-
-                <p class="text-warning fw-semibold text-uppercase mb-2">
-
-                    Our Services
-
-                </p>
-
-                <h2 class="display-5 fw-bold">
-
-                    Luxury Experiences
-                    Crafted For You
-
-                </h2>
-
+                <p class="text-warning fw-semibold text-uppercase mb-2 section-label">Our Services</p>
+                <h2 class="display-5 fw-bold">Luxury Experiences<br>Crafted For You</h2>
             </div>
 
-
-
-
-
             <!-- SERVICES GRID -->
-
             <div class="row g-4">
-
                 <!-- CARD 1 -->
                 <div class="col-12 col-md-6 col-lg-4">
-
-                    <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
-
+                    <div class="card service-card border-0 h-100 rounded-4 overflow-hidden">
                         <img src="./assets/images/Villa.png" class="card-img-top" alt="Luxury Room">
-
                         <div class="card-body p-4">
-
-                            <h4 class="card-title fw-bold mb-3">
-
-                                Luxury Villas
-
-                            </h4>
-
+                            <h4 class="card-title fw-bold mb-3">Luxury Villas</h4>
                             <p class="card-text text-muted lh-lg">
-
                                 Experience elegant tropical villas
                                 designed with comfort, privacy,
                                 and breathtaking ocean views.
-
                             </p>
-
-                            <a href="#" class="btn btn-warning rounded-pill px-4 mt-3">
-
-                                Explore
-
-                            </a>
-
+                            <a href="#" class="btn btn-warning rounded-pill px-4 mt-3 luxury-btn">Explore</a>
                         </div>
-
                     </div>
-
                 </div>
-
-
-
-
 
                 <!-- CARD 2 -->
                 <div class="col-12 col-md-6 col-lg-4">
-
-                    <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
-
+                    <div class="card service-card border-0 h-100 rounded-4 overflow-hidden">
                         <img src="./assets/images/Gallery3.png" class="card-img-top" alt="Infinity Pool">
-
                         <div class="card-body p-4">
-
-                            <h4 class="card-title fw-bold mb-3">
-
-                                Infinity Pool
-
-                            </h4>
-
+                            <h4 class="card-title fw-bold mb-3">Infinity Pool</h4>
                             <p class="card-text text-muted lh-lg">
-
                                 Relax beside crystal-clear infinity pools
                                 overlooking stunning tropical sunsets.
-
                             </p>
-
-                            <a href="#" class="btn btn-warning rounded-pill px-4 mt-3">
-
-                                Explore
-
-                            </a>
-
+                            <a href="#" class="btn btn-warning rounded-pill px-4 mt-3 luxury-btn">Explore</a>
                         </div>
-
                     </div>
-
                 </div>
-
-
-
-
 
                 <!-- CARD 3 -->
                 <div class="col-12 col-md-6 col-lg-4">
-
-                    <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
-
+                    <div class="card service-card border-0 h-100 rounded-4 overflow-hidden">
                         <img src="./assets/images/Spa.png" class="card-img-top" alt="Spa">
-
                         <div class="card-body p-4">
-
-                            <h4 class="card-title fw-bold mb-3">
-
-                                Wellness Spa
-
-                            </h4>
-
+                            <h4 class="card-title fw-bold mb-3">Wellness Spa</h4>
                             <p class="card-text text-muted lh-lg">
-
                                 Rejuvenate your body and mind through
                                 luxury spa treatments inspired by nature.
-
                             </p>
-
-                            <a href="#" class="btn btn-warning rounded-pill px-4 mt-3">
-
-                                Explore
-
-                            </a>
-
+                            <a href="#" class="btn btn-warning rounded-pill px-4 mt-3 luxury-btn">Explore</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- ===================================
      GALLERY SECTION
-=================================== -->
+    =================================== -->
 
-    <section id="gallery" class="container py-5">
+    <section id="gallery" class="py-lg-6 py-5 bg-white">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="text-center mb-5">
+                <p class="text-warning fw-semibold text-uppercase mb-2 section-label">Resort Gallery</p>
+                <h2 class="display-5 fw-bold">Discover Paradise</h2>
+            </div>
 
-        <!-- SECTION TITLE -->
+            <!-- GALLERY GRID -->
+            <div class="row g-4">
+                <!-- IMAGE 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-lg">
+                        <img src="./assets/images/Gallery1.png" alt="Gallery Image" class="img-fluid w-100">
+                    </div>
+                </div>
 
-        <div class="text-center mb-5">
+                <!-- IMAGE 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-lg">
+                        <img src="./assets/images/Gallery2.png" alt="Gallery Image" class="img-fluid w-100">
+                    </div>
+                </div>
 
-            <p class="text-warning fw-semibold text-uppercase mb-2">
+                <!-- IMAGE 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-lg">
+                        <img src="./assets/images/Gallery3.png" alt="Gallery Image" class="img-fluid w-100">
+                    </div>
+                </div>
 
-                Resort Gallery
+                <!-- IMAGE 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-lg">
+                        <img src="./assets/images/Gallery4.png" alt="Gallery Image" class="img-fluid w-100">
+                    </div>
+                </div>
 
-            </p>
+                <!-- IMAGE 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-lg">
+                        <img src="./assets/images/Gallery5.png" alt="Gallery Image" class="img-fluid w-100">
+                    </div>
+                </div>
 
-            <h2 class="display-5 fw-bold">
-
-                Discover Paradise
-
-            </h2>
-
+                <!-- IMAGE 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="gallery-item rounded-4 overflow-hidden shadow-lg">
+                        <img src="./assets/images/Gallery6.png" alt="Gallery Image" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-
-
-        <!-- GALLERY GRID -->
-
-        <div class="row g-4">
-
-            <!-- IMAGE 1 -->
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
-
-                    <img src="./assets/images/Gallery1.png" alt="Gallery Image" class="img-fluid w-100">
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- IMAGE 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
-
-                    <img src="./assets/images/Gallery2.png" alt="Gallery Image" class="img-fluid w-100">
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- IMAGE 3 -->
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
-
-                    <img src="./assets/images/Gallery3.png" alt="Gallery Image" class="img-fluid w-100">
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- IMAGE 4 -->
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
-
-                    <img src="./assets/images/Gallery4.png" alt="Gallery Image" class="img-fluid w-100">
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- IMAGE 5 -->
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
-
-                    <img src="./assets/images/Gallery5.png" alt="Gallery Image" class="img-fluid w-100">
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <!-- IMAGE 6 -->
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="gallery-item rounded-4 overflow-hidden shadow-sm">
-
-                    <img src="./assets/images/Gallery6.png" alt="Gallery Image" class="img-fluid w-100">
-
-                </div>
-
-            </div>
-
-        </div>
-
     </section>
 
     <!-- ===================================
      TESTIMONIALS SECTION
-=================================== -->
+    =================================== -->
 
-    <section class="py-5 bg-dark text-white">
-
-        <div class="container">
-
+    <section id="testimonials" class="py-lg-6 py-5 testimonials-section position-relative">
+        <div class="container position-relative" style="z-index: 1;">
             <!-- SECTION TITLE -->
-
             <div class="text-center mb-5">
-
-                <p class="text-warning fw-semibold text-uppercase mb-2">
-
-                    Guest Testimonials
-
-                </p>
-
-                <h2 class="display-5 fw-bold">
-
-                    What Our Guests Say
-
-                </h2>
-
+                <p class="text-warning fw-semibold text-uppercase mb-2 section-label">Guest Testimonials</p>
+                <h2 class="display-5 fw-bold text-white">What Our Guests Say</h2>
             </div>
-
-
-
-
 
             <!-- CAROUSEL -->
-
             <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-
                 <!-- INNER -->
-
                 <div class="carousel-inner">
-
                     <!-- ITEM 1 -->
-
                     <div class="carousel-item active">
-
-                        <div class="text-center px-lg-5">
-
-                            <img src="./assets/icons/icon_experience.png" alt="Guest" width="80" class="mb-4">
-
-                            <p class="lead lh-lg mb-4">
-
-                                “An unforgettable luxury escape surrounded
-                                by breathtaking views and exceptional
-                                hospitality. Every moment felt magical.”
-
+                        <div class="text-center px-lg-5 testimonial-card">
+                            <img src="./assets/images/Customer1.png" alt="Guest" width="80" class="mb-4 rounded-circle">
+                            <p class="lead lh-lg mb-4 text-white-50">
+                                
+                                "The infinity pool, spa experience,
+                                and sunset villas were absolutely
+                                world-class. Truly paradise on earth."
                             </p>
-
-                            <h5 class="fw-bold mb-1">
-
-                                Sophia Williams
-
-                            </h5>
-
-                            <p class="text-warning mb-0">
-
-                                Travel Blogger
-
-                            </p>
-
+                            <h5 class="fw-bold mb-1 text-white">Vicky</h5>
+                            <p class="text-warning mb-0">Travel Blogger</p>
                         </div>
-
                     </div>
-
-
-
-
 
                     <!-- ITEM 2 -->
-
                     <div class="carousel-item">
-
-                        <div class="text-center px-lg-5">
-
-                            <img src="./assets/icons/icon_luxury.png" alt="Guest" width="80" class="mb-4">
-
-                            <p class="lead lh-lg mb-4">
-
-                                “The infinity pool, spa experience,
-                                and sunset villas were absolutely
-                                world-class. Truly paradise on earth.”
-
+                        <div class="text-center px-lg-5 testimonial-card">
+                            <img src="./assets/images/Customer2.png" alt="Guest" width="80" class="mb-4 rounded-circle">
+                            <p class="lead lh-lg mb-4 text-white-50">
+                               "An unforgettable luxury escape surrounded
+                                by breathtaking views and exceptional
+                                hospitality. Every moment felt magical."
                             </p>
-
-                            <h5 class="fw-bold mb-1">
-
-                                Daniel Carter
-
-                            </h5>
-
-                            <p class="text-warning mb-0">
-
-                                Luxury Traveler
-
-                            </p>
-
+                            <h5 class="fw-bold mb-1 text-white">Priya</h5>
+                            <p class="text-warning mb-0">IT Professional</p>
                         </div>
-
                     </div>
-
-
-
-
 
                     <!-- ITEM 3 -->
-
                     <div class="carousel-item">
-
-                        <div class="text-center px-lg-5">
-
-                            <img src="./assets/icons/icon_service.png" alt="Guest" width="80" class="mb-4">
-
-                            <p class="lead lh-lg mb-4">
-
-                                “Exceptional service, peaceful atmosphere,
+                        <div class="text-center px-lg-5 testimonial-card">
+                            <img src="./assets/images/Customer3.png" alt="Guest" width="80" class="mb-4 rounded-circle">
+                            <p class="lead lh-lg mb-4 text-white-50">
+                                "Exceptional service, peaceful atmosphere,
                                 and beautifully designed resort spaces.
-                                Highly recommended for couples.”
-
+                                Highly recommended for couples & Family."
                             </p>
-
-                            <h5 class="fw-bold mb-1">
-
-                                Emily Johnson
-
-                            </h5>
-
-                            <p class="text-warning mb-0">
-
-                                Resort Guest
-
-                            </p>
-
+                            <h5 class="fw-bold mb-1 text-white">Erick & Family</h5>
+                            <p class="text-warning mb-0">Resort Guest</p>
                         </div>
-
                     </div>
-
                 </div>
 
-
-
-
-
                 <!-- PREVIOUS BUTTON -->
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
-                    data-bs-slide="prev">
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
-
                 </button>
-
-
-
-
 
                 <!-- NEXT BUTTON -->
-
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
-                    data-bs-slide="next">
-
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
-
                 </button>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- ===================================
      CONTACT SECTION
-=================================== -->
-
-    <section id="contact" class="container py-5">
-
-        <!-- SECTION TITLE -->
-
-        <div class="text-center mb-5">
-
-            <p class="text-warning fw-semibold text-uppercase mb-2">
-
-                Contact Us
-
-            </p>
-
-            <h2 class="display-5 fw-bold">
-
-                Plan Your Dream Vacation
-
-            </h2>
-
-        </div>
-
-
-
-
-
-        <!-- CONTACT FORM -->
-
-        <div class="row justify-content-center">
-
-            <!-- col-lg-8:
-             form width 8 columns on desktop
-             full width on mobile
-        -->
-
-            <div class="col-lg-8">
-
-                <div class="bg-white shadow-sm rounded-4 p-4 p-lg-5">
-
-                    <form>
-
-                        <!-- ROW -->
-
-                        <div class="row g-4">
-
-                            <!-- NAME -->
-
-                            <div class="col-md-6">
-
-                                <label class="form-label fw-semibold">
-
-                                    Full Name
-
-                                </label>
-
-                                <input type="text" class="form-control py-3" placeholder="Enter your name">
-
-                            </div>
-
-
-
-
-
-                            <!-- EMAIL -->
-
-                            <div class="col-md-6">
-
-                                <label class="form-label fw-semibold">
-
-                                    Email Address
-
-                                </label>
-
-                                <input type="email" class="form-control py-3" placeholder="Enter your email">
-
-                            </div>
-
-
-
-
-
-                            <!-- PHONE -->
-
-                            <div class="col-md-6">
-
-                                <label class="form-label fw-semibold">
-
-                                    Phone Number
-
-                                </label>
-
-                                <input type="tel" class="form-control py-3" placeholder="Enter phone number">
-
-                            </div>
-
-
-
-
-
-                            <!-- GUESTS -->
-
-                            <div class="col-md-6">
-
-                                <label class="form-label fw-semibold">
-
-                                    Guests
-
-                                </label>
-
-                                <select class="form-select py-3">
-
-                                    <option selected>
-                                        Select Guests
-                                    </option>
-
-                                    <option>
-                                        1 Guest
-                                    </option>
-
-                                    <option>
-                                        2 Guests
-                                    </option>
-
-                                    <option>
-                                        Family Package
-                                    </option>
-
-                                </select>
-
-                            </div>
-
-
-
-
-
-                            <!-- MESSAGE -->
-
-                            <div class="col-12">
-
-                                <label class="form-label fw-semibold">
-
-                                    Message
-
-                                </label>
-
-                                <textarea class="form-control" rows="6" placeholder="Write your message"></textarea>
-
-                            </div>
-
-
-
-
-
-                            <!-- BUTTON -->
-
-                            <div class="col-12 text-center">
-
-                                <button class="btn btn-warning rounded-pill px-5 py-3 fw-semibold">
-
-                                    Send Inquiry
-
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </form>
-
-                </div>
-
+    =================================== -->
+
+    <section id="contact" class="py-lg-6 py-5 bg-white">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="text-center mb-5">
+                <p class="text-warning fw-semibold text-uppercase mb-2 section-label">Contact Us</p>
+                <h2 class="display-5 fw-bold">Plan Your Dream Vacation</h2>
             </div>
 
-        </div>
+            <!-- CONTACT FORM -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-white shadow-lg rounded-4 p-4 p-lg-5 contact-form-wrapper">
+                        <form>
+                            <!-- ROW -->
+                            <div class="row g-4">
+                                <!-- NAME -->
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold mb-3">Full Name</label>
+                                    <input type="text" class="form-control form-control-lg rounded-3" placeholder="Enter your name">
+                                </div>
 
+                                <!-- EMAIL -->
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold mb-3">Email Address</label>
+                                    <input type="email" class="form-control form-control-lg rounded-3" placeholder="Enter your email">
+                                </div>
+
+                                <!-- PHONE -->
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold mb-3">Phone Number</label>
+                                    <input type="tel" class="form-control form-control-lg rounded-3" placeholder="Enter phone number">
+                                </div>
+
+                                <!-- GUESTS -->
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold mb-3">Guests</label>
+                                    <select class="form-select form-select-lg rounded-3">
+                                        <option selected>Select Guests</option>
+                                        <option>1 Guest</option>
+                                        <option>2 Guests</option>
+                                        <option>Family Package</option>
+                                    </select>
+                                </div>
+
+                                <!-- MESSAGE -->
+                                <div class="col-12">
+                                    <label class="form-label fw-semibold mb-3">Message</label>
+                                    <textarea class="form-control form-control-lg rounded-3" rows="6" placeholder="Write your message"></textarea>
+                                </div>
+
+                                <!-- BUTTON -->
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-warning rounded-pill px-5 py-3 fw-semibold luxury-btn">Send Inquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ===================================
      FOOTER
-=================================== -->
+    =================================== -->
 
     <footer class="bg-dark text-white pt-5 pb-4">
-
         <div class="container">
-
             <div class="row g-5">
-
                 <!-- COLUMN 1 -->
-                <div class="col-lg-4 align-items-left">
-
+                <div class="col-lg-4">
                     <!-- BRAND -->
-
-                    <div class="d-flex align-items-center mb-0">
-
-                        <img src="./assets/logo/Logo_Icon3.png" alt="GVK Logo" width="120"  height="100" >
-
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./assets/logo/Logo_Icon3.png" alt="GVK Logo" width="120" height="100">
                         <div>
-
-                            <h4 class="fw-bold mb-0">
-
-                                GVK
-
-                            </h4>
-
-                            <small class="text-warning">
-
-                                SERENITY RESORTS
-
-                            </small>
-
+                            <h4 class="fw-bold mb-0">GVK</h4>
+                            <small class="text-warning">SERENITY RESORTS</small>
                         </div>
-
                     </div>
-
-
-
-
-
                     <p class="text-light-emphasis lh-lg mb-0">
-
                         Discover luxury tropical experiences,
                         breathtaking destinations, and unforgettable
                         stays crafted for complete relaxation.
-
                     </p>
-
                 </div>
-
-
-
-
 
                 <!-- COLUMN 2 -->
                 <div class="col-lg-4">
-
-                    <h5 class="fw-bold mb-4">
-
-                        Quick Links
-
-                    </h5>
-
+                    <h5 class="fw-bold mb-4">Quick Links</h5>
                     <ul class="list-unstyled footer-links">
-
-                        <li class="mb-3">
-                            <a href="#home">
-                                Home
-                            </a>
-                        </li>
-
-                        <li class="mb-3">
-                            <a href="#about">
-                                About
-                            </a>
-                        </li>
-
-                        <li class="mb-3">
-                            <a href="#services">
-                                Services
-                            </a>
-                        </li>
-
-                        <li class="mb-3">
-                            <a href="#gallery">
-                                Gallery
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#contact">
-                                Contact
-                            </a>
-                        </li>
-
+                        <li class="mb-3"><a href="#home">Home</a></li>
+                        <li class="mb-3"><a href="#about">About</a></li>
+                        <li class="mb-3"><a href="#services">Services</a></li>
+                        <li class="mb-3"><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
-
                 </div>
-
-
-
-
 
                 <!-- COLUMN 3 -->
                 <div class="col-lg-4">
-
-                    <h5 class="fw-bold mb-4">
-
-                        Contact Info
-
-                    </h5>
-
-                    <p class="mb-3">
-
-                        📍 Gvk Serenity Resort
-
-                    </p>
-
-                    <p class="mb-3">
-
-                        📞 +91 90000 70000
-
-                    </p>
-
-                    <p class="mb-4">
-
-                        ✉ info@gvkserenity.com
-
-                    </p>
-
-
-
-
+                    <h5 class="fw-bold mb-4">Contact Info</h5>
+                    <p class="mb-3">📍 Gvk Serenity Resort</p>
+                    <p class="mb-3">📞 +91 90000 70000</p>
+                    <p class="mb-4">✉ info@gvkserenity.com</p>
 
                     <!-- SOCIAL LINKS -->
-
                     <div class="d-flex gap-3">
-
                         <a href="#" class="btn btn-outline-warning rounded-circle">
-
                             <i class="bi bi-facebook"></i>
-
                         </a>
-
                         <a href="#" class="btn btn-outline-warning rounded-circle">
-
                             <i class="bi bi-instagram"></i>
-
                         </a>
-
                         <a href="#" class="btn btn-outline-warning rounded-circle">
-
                             <i class="bi bi-twitter"></i>
-
                         </a>
-
                     </div>
-
                 </div>
-
             </div>
-
-
-
-
 
             <!-- COPYRIGHT -->
-
             <hr class="border-secondary my-5">
-
             <div class="text-center text-light-emphasis">
-
-                © 2026 GVK Serenity Resorts.
-                All Rights Reserved.
-
+                © 2026 GVK Serenity Resorts. All Rights Reserved.
             </div>
-
         </div>
-
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
+
+</html>
